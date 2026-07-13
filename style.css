@@ -1,55 +1,83 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    background:#0b0b0b;
-    color:white;
-    font-family:Arial,sans-serif;
+background:#0d0d0d;
+color:white;
 }
 
 header{
-    background:#c00000;
-    text-align:center;
-    padding:25px;
+background:#b30000;
+padding:20px;
+text-align:center;
+box-shadow:0 0 15px red;
 }
 
-header h1{
-    font-size:35px;
+.logo h1{
+font-size:38px;
+letter-spacing:3px;
 }
 
-header p{
-    margin-top:8px;
-    color:#f5f5f5;
+.logo p{
+margin-top:8px;
+font-size:14px;
+color:#f1f1f1;
 }
 
 nav{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    background:#181818;
+margin-top:20px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    padding:15px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+padding:10px 16px;
+border:2px solid red;
+border-radius:8px;
+transition:.3s;
 }
 
 nav a:hover{
-    background:#c00000;
+background:red;
 }
 
-section{
-    max-width:900px;
-    margin:30px auto;
-    padding:20px;
+.hero{
+text-align:center;
+padding:80px 20px;
 }
 
-h2{
-    color:#ff3b3b;
-    margin-bottom:15px;
+.hero h2{
+font-size:42px;
+color:red;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+line-height:30px;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:15px 35px;
+background:red;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#ff2d2d;
 }
