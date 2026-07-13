@@ -74,6 +74,7 @@ padding:15px 35px;
 background:red;
 color:white;
 text-decoration:none;
+   
 border-radius:10px;
 font-weight:bold;
 }
@@ -81,3 +82,45 @@ font-weight:bold;
 .btn:hover{
 background:#ff2d2d;
 }
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+padding:40px 20px 80px;
+}
+
+.card{
+background:#181818;
+border:2px solid #b30000;
+border-radius:18px;
+padding:25px;
+text-align:center;
+transition:.3s;
+box-shadow:0 0 12px rgba(255,0,0,.25);
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 25px red;
+}
+
+.card h3{
+font-size:28px;
+margin-bottom:15px;
+color:#ff3b3b;
+}
+
+.card p{
+line-height:26px;
+margin-bottom:20px;
+}
+
+.card a{
+display:inline-block;
+padding:12px 28px;
+background:#b30000;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+   }
